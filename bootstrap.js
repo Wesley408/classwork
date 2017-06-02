@@ -37,43 +37,43 @@ const app = new Vue({
 		postlist: [
 			// constructed Post item
 			new Post(
-				'First Post! Yay!', 		// this is the TITLE place in the class
+				'mustang', 		// this is the TITLE place in the class
 				'https://google.com',	// this is the LINK place in the class
-				'An Author',			// this is the AUTHOR place in the class
-				'https://unsplash.it/200',	// this is the IMAGE place in the class
-				'Lorem ipsum dolor sit amet, consectetur.' // this is the BODY place in the class
+				'Wesley',			// this is the AUTHOR place in the class
+				'mustang.jpeg',	// this is the IMAGE place in the class
+				'' // this is the BODY place in the class
 				),
 
 			new Post(
-				'Second Post: Lorem',
+				'convertables',
 				'https://vuejs.org',
-				'Sammie Author',
-				'img-200.jpg', // this is a local image in the same folder as the js script
-				'This has a local image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi. '
+				'Wesley',
+				'convertables.jpg', // this is a local image in the same folder as the js script
+				''
 				),
 
 			new Post(
-				'This Post: Crazy Fredrick',
+				'trucks',
 				'https://google.com',
-				'Bob Author',
-				'https://unsplash.it/200',
-				'Crazy Fredrick bought many very exquisite opal jewels.'
+				'Wesley',
+				'7908.jpg',
+				''
 				),
 
 			new Post(
-				'Another Post: promptly judged',
+				'race cars',
 				'https://vuejs.org',
-				'Jane Author',
+				'Wesley',
 				'https://unsplash.it/200',
-				'We promptly judged antique ivory buckles for the next prize.'
+				''
 				),
 
 			new Post(
-				'Last Post: Jaded zombies',
+				'lamborghini',
 				'https://google.com',
-				'Anptoght Author',
+				'Wesley',
 				'#',
-				'Jaded zombies acted quaintly but kept driving their oxen forward.'
+				''
 				)
 		]
 	},
